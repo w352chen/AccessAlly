@@ -1,0 +1,3 @@
+../problem2 < s4.${1}.in > s4.${1}.out2
+diff s4.${1}.out2 s4.${1}.out
+cat s4.${1}.in s4.${1}.out2 s4.${1}.out
