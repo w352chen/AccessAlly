@@ -21,7 +21,8 @@ const int receivingBloodTypeTo[rulesCount] = {
     2, 4, 6,                // step6: O- -> A-, O- -> B-, O- -> AB-
     3, 5, 7                 // step7: O- -> A+, O- -> B+, O- -> AB+
 };
-    
+
+// calculate minimum value among two integers  
 int min(int a, int b) {
     if (a <= b) {
         return a;
@@ -61,11 +62,4 @@ int main() {
     // Output the result
     std::cout << count << '\r' << std::endl;
 }
-
-
-
-
-
-
-
     
